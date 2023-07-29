@@ -16,6 +16,7 @@ html, body {
 }
 .article {
     width: 70vw;
+    height: 100%;
     background-color: rgb(255, 241, 207);
 }
 .section_a {
@@ -38,6 +39,7 @@ html, body {
     line-height: 15vh;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: auto;
     background-color: rgb(255, 234, 150);
 }
 .aside {
@@ -47,16 +49,16 @@ html, body {
 .footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-basis: 100px;
     height: 15vh;
     margin-top: auto;
     background-color: rgb(201, 200, 200);
 }
 .section_f {
-    height: 10vh;
+    height: 80%;
     width: 20%;
     margin: 15px auto;
     text-align: center;
-    align-items: center;   
     background-color: white;
 }
